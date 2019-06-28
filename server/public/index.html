@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="jquery.min.js"></script>
+    <script src="client.js"></script>
+    <title>Ajax Intro</title>
+</head>
+
+<body>
+    <header>
+        <h1>Ajax Intro</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Add a Movie</h2>
+            <form>
+                <label>Name:</label>
+                <input type="text" id="in-name"/>
+            
+                <label>Movie:</label>
+                <input type="text" id="in-movie"/>
+                <button id="add-movie">Save</button>
+            </form>
+        </section>
+        <section>
+
+            <h2>Movies</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <td>Playfairians</td>
+                        <td>Movie</td>
+                    </tr>
+                </thead>
+                <tbody id="movies">
+                    <!--jQuery will fill this in-->
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+</body>
+
+</html>
